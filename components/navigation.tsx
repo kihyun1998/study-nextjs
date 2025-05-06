@@ -9,7 +9,7 @@ export default function Nav() {
   console.log(path);
   return (
     <nav className={styles.nav}>
-      <ul className={styles.list}>
+      <ul>
         <li>
           <Link href="/">Home</Link> {path === '/' ? '✅' : ''}
         </li>
